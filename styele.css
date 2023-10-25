@@ -1,0 +1,139 @@
+.chk{
+    top: 100px;
+}
+.row1{
+    display: flex;
+}
+.style{
+    letter-spacing: 3px;
+}
+.bg-style{
+    position: absolute;
+    width: 355px;
+    height: 400px;
+    background-color: blueviolet;
+    z-index: -1;
+    top: -10px;
+    left:-10px;
+    transition: 1s;
+    transition-timing-function: ease-in-out;
+
+    
+}
+
+.child-2{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    transition: 1s;
+    transition-timing-function: ease-in-out;
+
+    
+
+}
+.hover-style:hover .bg-style{
+    top: 10px;
+    left: 10px;
+    transition: 1s;
+    transition-timing-function: ease-in-out;
+}
+.hover-style:hover .child-2{
+    top: -15px;
+    left:-15px;
+    transition: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.namess{
+    margin: auto;
+    margin-top: 450px;
+    left: 100px;
+    text-align: center;
+    margin-right: 100px;
+   
+}
+.bgg{
+    position:absolute;
+    width: 2000px;
+    height: 600px;
+    background-color: rgba(49, 2, 31);
+    
+
+}
+.bg{
+    background-image: url('c1.jpg');
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+.lll{
+    position:relative;
+
+}
+.content{
+    top:500px;
+    margin-top: 600px;
+}
+.rr{
+    display: flex;
+}
+.size{
+    height: 20px;
+    width: 20px;
+}
+.round{
+    position: relative;
+    top: 13px;
+    left: 150px;
+   
+   
+}
+.back{
+    position: absolute;
+   
+   
+}
+.hover-style:hover .back{
+transform: rotateX(20 deg);
+transition: 1s;
+ transition-timing-function: ease-in-out;
+
+}
+.ccc{
+    top:1000px
+}
+
+.namesss{
+    margin: auto;
+     margin-top: 300px;
+    left: 100px;
+    text-align: center;
+    margin-right: 100px;
+}
+.styles{
+    letter-spacing: 3px;
+    color: brown;
+}
+.dd{
+    padding-right: 200px;
+    
+}
+.hover-style:hover .dc{
+    transform: rotateX(20 deg);
+    transition: 1s;
+     transition-timing-function: ease-in-out;
+    
+    }
+    .at{
+        display: flex;
+    }
+    .form{
+        background-color: rgb(12, 10, 11);
+        width: 1000px;
+        height:700px ;
+        padding:20%;
+        margin: 0%;
+    }
